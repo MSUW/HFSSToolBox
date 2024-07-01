@@ -1,14 +1,24 @@
 # HFSSToolBox
 A useful toolbox for HFSS
 
-Change the config file path in file MainForm.py at line 75 at the first time
+## Before runnig
+Download all the files and put them in a **folder**
 
-it looks like:
+Change the config file path in MainForm.py at line 75 into your **folder** before your first time running
 
-f = open("yourpath/Toolbox.config",'r') 
+It looks like:
 
-for example:
+```python
+f = open("yourpath/Toolbox.config",'r')
+```
 
+For example:
+
+```python
 f = open("C:/Users/username/Desktop/HFSSToolBox/Toolbox.config",'r')
+```
+## How to run
 
+Open your HFSS and run it by using menu: Tools -> Run Script
 
+You can also add it to your custom tools
